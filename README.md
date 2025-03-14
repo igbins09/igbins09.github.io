@@ -2,8 +2,8 @@
 
 Welcome to my personal portfolio! I’m Richard Igbinoba, a passionate DevOps Engineer with over 5 years of experience in automating CI/CD pipelines, managing cloud infrastructure, and integrating security solutions across Azure and AWS. With a spirit of innovation, I bring creativity and resilience to building efficient, scalable systems. This portfolio showcases my projects, skills, and journey in the world of DevOps and AI automation.
 
-![Portfolio Screenshot](https://via.placeholder.com/1200x600.png?text=Portfolio+Preview)  
-*Note: Replace with an actual screenshot of your portfolio page.*
+![portfolio-screenshot](https://github.com/user-attachments/assets/0c990bba-89b7-43a6-850d-c38ed437bd4c)
+
 
 ## About Me
 I specialize in leveraging tools like Docker, Kubernetes, Terraform, and Python to optimize workflows and explore AI-driven solutions. My career highlights include leading migrations of over 100 CI/CD pipelines and integrating DevSecOps practices that cut vulnerability remediation times by 50%. This site is my canvas to share that experience with you!
