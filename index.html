@@ -123,7 +123,46 @@
 										<h2>A few of my Projects</h2>
 									</header>
 									<div class="posts">
+										<!-- Project 0 -->
+										<article>
+											<a href="https://github.com/igbins09/multi-region-aks-webapp-new" class="image">
+												<img src="images/aks-multi-region.jpg" alt="Multi-Region AKS Web App" />
+											</a>
+											<h3>Multi-Region AKS Web App with High Availability and Disaster Recovery</h3>
+											<p>Deployed a highly available Node.js web application across two AKS clusters in East US and West US, leveraging Azure Front Door for global load balancing and automated failover.</p>
+											<ul>
+												<li>Multi-region deployment with AKS in East US and West US</li>
+												<li>Automated failover and load balancing with Azure Front Door</li>
+												<li>Real-time monitoring with Azure Monitor and Log Analytics</li>
+												<li>Disaster recovery plan with manual snapshots</li>
+												<li>Cost optimization using Azure Cost Management</li>
+											</ul>
+											<p><strong>Tech Stack:</strong> AKS, Helm, Azure Front Door, Azure Monitor, Log Analytics, Azure Cost Management</p>
+											<p><strong>Impact:</strong> Achieved 99.99% uptime, reduced failover time by 80%, and optimized costs by 15%.</p>
+											<ul class="actions">
+												<li><a href="https://github.com/igbins09/multi-region-aks-webapp-new" class="button">More</a></li>
+											</ul>
+										</article> 
 										<!-- Project 1 -->
+										<article>
+											<a href="https://github.com/igbins09/gitops-azure-devops-aks" class="image">
+												<img src="images/gitops-architecture.jpg" alt="GitOps Workflow with Azure DevOps, Flux, and AKS" />
+											</a>
+											<h3>GitOps Workflow with Azure DevOps, Flux, and AKS</h3>
+											<p>Implemented a GitOps pipeline for continuous deployment to AKS using Azure DevOps and Flux, with automated rollbacks and compliance enforcement.</p>
+											<ul>
+												<li>Provisioned an AKS cluster and integrated it with Azure DevOps for CI/CD</li>
+												<li>Installed Flux to synchronize a Git repository with AKS for automated deployments</li>
+												<li>Configured Azure Policy to enforce compliance rules</li>
+												<li>Enabled automated rollbacks with Flux on deployment failures</li>
+												<li>Integrated Azure Key Vault for secure secrets management</li>
+											</ul>
+											<p><strong>Tech Stack:</strong> Azure DevOps, Flux, AKS, Azure Policy, Azure Key Vault</p>
+											<p><strong>Impact:</strong> Reduced deployment errors by 50% and ensured 100% compliance with security policies.</p>
+											<ul class="actions">
+												<li><a href="https://github.com/igbins09/gitops-azure-devops-aks" class="button">More</a></li>
+											</ul>
+										</article>
 										<article>
 											<a href="https://github.com/igbins09/todo-app" class="image">
 												<img src="images/pic07.jpg" alt="To-Do List App with DevOps Pipeline" />
@@ -159,55 +198,6 @@
 												<li><a href="https://github.com/igbins09/cicd-demo" class="button">More</a></li>
 											</ul>
 										</article>
-										<!-- Project 3 -->
-										<article>
-											<a href="https://github.com/igbins09/azure-cicd-demo" class="image">
-												<img src="images/cicd-azure.jpg" alt="CI/CD Pipeline with Azure DevOps" />
-											</a>
-											<h3>CI/CD Pipeline with Azure DevOps</h3>
-											<p>Automated deployment of a Node.js app to Azure App Service with robust testing, achieving 100% test coverage and zero deployment errors.</p>
-											<ul>
-												<li>Pipeline setup in Azure DevOps</li>
-												<li>Automated testing and deployment</li>
-											</ul>
-											<p><strong>Tech Stack:</strong> Azure DevOps, Azure App Service, Node.js</p>
-											<ul class="actions">
-												<li><a href="https://github.com/igbins09/azure-cicd-demo" class="button">More</a></li>
-											</ul>
-										</article>
-										<!-- Project 4 -->
-										<article>
-											<a href="https://github.com/igbins09/aks-deployment" class="image">
-												<img src="images/aks-deployment.jpg" alt="Kubernetes Deployment on AKS" />
-											</a>
-											<h3>Kubernetes Deployment on AKS</h3>
-											<p>Deployed a Flask app to Azure Kubernetes Service with real-time monitoring, ensuring 99.9% uptime and proactive issue detection.</p>
-											<ul>
-												<li>Docker containerization</li>
-												<li>AKS cluster management</li>
-												<li>Monitoring with Azure Monitor</li>
-											</ul>
-											<p><strong>Tech Stack:</strong> Docker, Kubernetes (AKS), Flask, Azure Monitor</p>
-											<ul class="actions">
-												<li><a href="https://github.com/igbins09/aks-deployment" class="button">More</a></li>
-											</ul>
-										</article>
-										<!-- Project 5 -->
-										<article>
-											<a href="https://github.com/igbins09/azure-terraform-demo" class="image">
-												<img src="images/terraform-azure.jpg" alt="Azure Infrastructure Automation with Terraform" />
-											</a>
-											<h3>Azure Infrastructure Automation with Terraform</h3>
-											<p>Provisioned Azure resources efficiently using Infrastructure as Code. Demonstrates scalable and repeatable infrastructure setup, reducing provisioning time by 70% and eliminating configuration errors</p>
-											<ul>
-												<li>Terraform for IaC</li>
-												<li>Managed Virtual Machines and networks</li>
-											</ul>
-											<p><strong>Tech Stack:</strong> Terraform, Azure (VMs, Networks)</p>
-											<ul class="actions">
-												<li><a href="https://github.com/igbins09/azure-terraform-demo" class="button">More</a></li>
-											</ul>
-										</article>
 										<!-- Project 6 -->
 										<article>
 											<a href="https://github.com/igbins09/aws-serverless-api" class="image">
@@ -241,22 +231,6 @@
 											</ul>
 										</article>
 										<!-- Project 8 -->
-										<article>
-											<a href="https://github.com/igbins09/webjob-queue-logging" class="image">
-												<img src="images/webjob.jpg" alt="WebJob Project: Queue-Triggered Job with Logging" />
-											</a>
-											<h3>WebJob Project: Queue-Triggered Job with Logging</h3>
-											<p>A queue-triggered job processing messages with detailed logging, improving message processing efficiency by 40% through event-driven automation.</p>
-											<ul>
-												<li>Azure WebJobs for event-driven tasks</li>
-												<li>Logging with Application Insights</li>
-												<li>CI/CD via GitHub Actions</li>
-											</ul>
-											<p><strong>Tech Stack:</strong> Azure WebJobs, Azure Storage Queue, Application Insights, GitHub Actions</p>
-											<ul class="actions">
-												<li><a href="https://github.com/igbins09/webjob-queue-logging" class="button">More</a></li>
-											</ul>
-										</article>
 										<!-- Project 9 -->
 										<article>
 											<a href="project2.html" class="image">
@@ -320,7 +294,7 @@
 												<li>Targets LinkedIn, Twitter, YouTube</li>
 												<li>Boosts engagement</li>
 											</ul>
-											<p><strong>Tech Stack:</strong> Make (no-code)</p>
+											<p><strong>Tech Stack:</strong> Make (no-code), N8N (code/no-code)</p>
 											<ul class="actions">
 												<li><a href="project6.html" class="button">More</a></li>
 											</ul>
